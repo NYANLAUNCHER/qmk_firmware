@@ -1,0 +1,22 @@
+{
+    "keyboard_name": "Charybdis Nano (3x5+3) kb2040",
+    "usb": {
+        "device_version": "2.0.0"
+    },
+    "features": {
+        "bootmagic": true,
+        "mousekey": false,
+        "extrakey": true,
+        "pointing_device": true
+    },
+    "matrix_pins": {
+        "rows": ["GP29", "GP28", "GP27", "GP26"],
+        "cols": ["GP6", "GP5", "GP4", "GP3", "GP2"]
+    },
+    "diode_direction": "ROW2COL",
+    "split": {
+        "enabled": true
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040"
+}
